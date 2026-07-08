@@ -1,6 +1,6 @@
 {
-  "name": "ImmichMachineLearning-CUDA",
-  "repo": "ghcr.io/immich-app/immich-machine-learning:release-CUDA",
+  "name": "ImmichMachineLearning-Cuda",
+  "repo": "ghcr.io/immich-app/immich-machine-learning:release-cuda",
   "registry": null,
   "network": "bridge",
   "custom_ip": null,
