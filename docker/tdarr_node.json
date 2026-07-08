@@ -58,6 +58,16 @@
   ],
   "variables": [
     {
+      "name": "apiKey",
+      "key": "apiKey",
+      "value": "",
+      "description": "API key for config",
+      "required": true,
+      "mask": true,
+      "display": "always",
+      "default": null
+    },
+    {
       "name": "serverPort",
       "key": "serverPort",
       "value": "8266",
