@@ -1,5 +1,5 @@
 {
-  "name": "Pelican Wing",
+  "name": "DEV-Pelican Wing",
   "repo": "ghcr.io/pelican-dev/wings:latest",
   "registry": null,
   "network": "bridge",

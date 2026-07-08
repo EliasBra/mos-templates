@@ -1,5 +1,5 @@
 {
-  "name": "prometheus-exporter-nvidia-gpu",
+  "name": "DEV-prometheus-exporter-nvidia-gpu",
   "repo": "mindprince/nvidia_gpu_prometheus_exporter:0.1",
   "registry": null,
   "network": "bridge",
