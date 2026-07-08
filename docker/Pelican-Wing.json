@@ -1,5 +1,5 @@
 {
-  "name": "Pelican-Wing",
+  "name": "Pelican Wing",
   "repo": "ghcr.io/pelican-dev/wings:latest",
   "registry": null,
   "network": "bridge",
@@ -28,19 +28,19 @@
       "name": "Pelican - Etc",
       "host": "/mnt/cache/appdata/pelican-wing/etc/pelican",
       "container": "/etc/pelican",
-      "description": "For the config.yml (Check mount volume)"
+      "description": "You need to add config.yml here,create node in panel and paste the config from configuration file window"
     },
     {
       "name": "Pelican - Tmp",
-      "host": "/tmp/pelican-wing/",
+      "host": "/tmp/pelican/",
       "container": "/tmp/pelican/",
-      "description": "Temp folder, Shouldn't need to change"
+      "description": "Do not change!"
     },
     {
       "name": "Pelican Data",
       "host": "/mnt/cache/appdata/pelican-wing/data",
       "container": "/mnt/cache/appdata/pelican-wing/data",
-      "description": "(Check mount volume)"
+      "description": "Daemon Base Directory -- needs to be same as panel configuration --"
     }
   ],
 "ports": [
