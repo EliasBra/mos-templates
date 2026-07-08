@@ -60,7 +60,7 @@
     },
     {
       "name": "MACHINE_LEARNING_WORKER_TIMEOUT",
-      "key": "MACHINE_LEARNING_WORKERS",
+      "key": "MACHINE_LEARNING_WORKER_TIMEOUT",
       "value": "300",
       "description": "Seconds before a worker is considered unresponsive. GPU inference is usually slower on the first run.",
       "required": true,
