@@ -1,5 +1,5 @@
 {
-  "name": "Arcane",
+  "name": "DEV-Arcane",
   "repo": "ghcr.io/getarcaneapp/arcane:latest",
   "registry": null,
   "network": "bridge",

@@ -1,5 +1,5 @@
 {
-  "name": "ImmichMachineLearning-Cuda",
+  "name": "DEV-ImmichMachineLearning-Cuda",
   "repo": "ghcr.io/immich-app/immich-machine-learning:release-cuda",
   "registry": null,
   "network": "bridge",

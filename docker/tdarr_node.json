@@ -1,5 +1,5 @@
 {
-  "name": "tdarrnode-DEV",
+  "name": "DEV-tdarrnode",
   "repo": "ghcr.io/haveagitgat/tdarr_node",
   "registry": null,
   "network": "bridge",
