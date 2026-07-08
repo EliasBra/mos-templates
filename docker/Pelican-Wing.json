@@ -94,7 +94,7 @@
       "value": "nobody",
       "description": "",
       "required": true,
-      "mask": true,
+      "mask": false,
       "display": "always",
       "default": null
     }
