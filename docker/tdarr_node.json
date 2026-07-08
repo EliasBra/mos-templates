@@ -20,25 +20,25 @@
   "paths": [
     {
       "name": "Configs",
-      "host": "/mnt/cache/appdata/tdarr/configs",
+      "host": "/mnt/cache/appdata/tdarr_node/configs",
       "container": "/app/configs",
       "description": "Configs"
     },
     {
       "name": "Logs",
-      "host": "/mnt/cache/appdata/tdarr/logs",
+      "host": "/mnt/cache/appdata/tdarr_node/logs",
       "container": "/app/logs",
       "description": "Logs"
     },
     {
       "name": "Media Library",
-      "host": "/mnt/cache/appdata/container",
+      "host": "/mnt/cache/appdata/tdarr_node/media",
       "container": "/mnt/media",
       "description": "Media Library volume"
     },
     {
       "name": "Transcode Cache",
-      "host": "/mnt/cache/appdata/container",
+      "host": "/mnt/cache/appdata/tdarr_node/temp",
       "container": "/temp",
       "description": "Transcode caching (use fast storage) "
     }
