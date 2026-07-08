@@ -42,7 +42,17 @@
       "name": "MACHINE_LEARNING_WORKERS",
       "key": "MACHINE_LEARNING_WORKERS",
       "value": "1",
-      "description": "Number of ML worker processes. For multi-GPU setups, increase workers and set MACHINE_LEARNING_DEVICE_IDS (e.g. 0,1) to distribute workers across GPUs.",
+      "description": "Number of ML worker processes. For multi-GPU setups, increase workers to 2 etc.",
+      "required": true,
+      "mask": false,
+      "display": "always",
+      "default": null
+    },
+      {
+      "name": "MACHINE_LEARNING_DEVICE_IDS",
+      "key": "MACHINE_LEARNING_DEVICE_IDS",
+      "value": "0",
+      "description": "Check GPU IDs with [nvidia-smi -L] (e.g. 0,1) to distribute workers across GPUs. ",
       "required": true,
       "mask": false,
       "display": "always",
