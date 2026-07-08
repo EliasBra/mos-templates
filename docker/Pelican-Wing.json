@@ -10,7 +10,7 @@
   "post_parameters": null,
   "cpu_set": null,
   "web_ui_url": null,
-  "icon": "https://raw.githubusercontent.com/Mainfrezzer/UnRaid-Templates/main/icon/pelican.png",
+  "icon": "https://pelican.dev/img/logo.png",
   "category": ["Game Server"],
   "project": null,
   "support": null,
