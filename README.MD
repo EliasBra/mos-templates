@@ -1,4 +1,5 @@
 # Welcome -  template repository for MOS Hub
+Check out also the other recommended MOS Hub repositorys
 ```
 https://github.com/s3ppo/docker_json_templates
 https://github.com/ich777/mos-templates

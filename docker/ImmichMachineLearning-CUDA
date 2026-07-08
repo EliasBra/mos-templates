@@ -38,17 +38,6 @@
     }
   ],
   "variables": [],
-  "devices": [
-    {
-      "name": "Host Device 1",
-      "host": "/dev/bus/usb",
-      "container": "/dev/bus/usb"
-    },
-    {
-      "name": "Host Device 2",
-      "host": "/dev/dri",
-      "container": "/dev/dri"
-    }
-  ],
+  "devices": [],
   "labels": []
 }
