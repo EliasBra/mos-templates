@@ -21,7 +21,7 @@
     {
       "name": "Configs",
       "host": "/mnt/cache/appdata/tdarr/configs",
-      "container": " /app/configs",
+      "container": "/app/configs",
       "description": "Configs"
     },
     {
@@ -57,6 +57,26 @@
     }
   ],
   "variables": [
+    {
+      "name": "serverPort",
+      "key": "serverPort",
+      "value": "8266",
+      "description": "",
+      "required": true,
+      "mask": false,
+      "display": "always",
+      "default": null
+    },
+    {
+      "name": "serverIP",
+      "key": "serverIP",
+      "value": "0.0.0.0",
+      "description": "Required if using Tdarr Nodes across your local network",
+      "required": true,
+      "mask": false,
+      "display": "always",
+      "default": null
+    },
     {
       "name": "nodeIP",
       "key": "nodeIP",
