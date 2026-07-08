@@ -1,0 +1,55 @@
+{
+  "name": "Example",
+  "repo": "ghcr.io/Example:latest",
+  "registry": null,
+  "network": "bridge",
+  "custom_ip": null,
+  "default_shell": "shell",
+  "privileged": false,
+  "extra_parameters": "--restart=unless-stopped",
+  "post_parameters": null,
+  "cpu_set": null,
+  "web_ui_url": null,
+  "icon": "",
+  "category": [""],
+  "project": null,
+  "support": null,
+  "description": "",
+  "donate": null,
+  "requires": null,
+  "paths": [
+    {
+      "name": "Example data",
+      "host": "/mnt/cache/appdata/container",
+      "container": "/mnt/cache/appdata/container",
+      "description": "Example data"
+    }
+  ],
+"ports": [
+    {
+      "name": "WebHttp",
+      "host": "8080",
+      "container": "8080",
+      "protocol": "TCP",
+      "description": "Webserver port",
+      "required": true,
+      "mask": false,
+      "display": "always",
+      "default": null
+    }
+  ],
+  "variables": [
+    {
+      "name": "Example-Variable",
+      "key": "Example-Variable",
+      "value": "1",
+      "description": "",
+      "required": true,
+      "mask": false,
+      "display": "always",
+      "default": null
+    }
+  ],
+  "devices": [],
+  "labels": []
+}
