@@ -29,7 +29,7 @@
       "name": "MLPort",
       "host": "3003",
       "container": "3003",
-      "protocol": "TRP",
+      "protocol": "TCP",
       "description": "Port for connecting to immich serve",
       "required": true,
       "mask": false,
@@ -81,7 +81,7 @@
     {
       "name": "HF_TOKEN",
       "key": "HF_TOKEN",
-      "value": "hf_",
+      "value": "",
       "description": "(not required) HuggingFace token for faster model downloads",
       "required": false,
       "mask": true,
